@@ -16,7 +16,7 @@ module.exports = {
       return queryInterface.sequelize.transaction((t) => {
         return Promise.all([
           // Example
-          // queryInterface.bulkDelete("Users", null, { transaction: t }),
+          // queryInterface.bulkDelete("table_name", null, { transaction: t }),
         ]);
       });
     }),
